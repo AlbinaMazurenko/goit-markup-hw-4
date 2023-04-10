@@ -1,0 +1,317 @@
+:root {
+
+}
+
+.container {
+   width: 1158px;
+   margin-left: auto;
+   margin-right: auto;
+   padding-right: 15px;
+   padding-left: 15px;
+}
+
+.header-container {
+   display: flex;
+   align-items: center;
+   border-bottom: 1px solid #E7E9FC;
+}
+
+body {
+   font-family: 'Roboto', sans-serif;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 2;
+
+   color: #434455;
+   background-color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+   margin: 0;
+}
+
+img {
+   display: block;
+}
+
+.list {
+   list-style: none;
+   padding: 0;
+   margin: 0;
+}
+
+.link {
+   text-decoration-line: none;
+}
+
+.section {
+   padding-bottom: 120px;
+   padding-bottom: 120px;
+}
+
+.header-logo {
+   margin-right: 76px;
+
+   font-weight: 800;
+   font-size: 18px;
+   line-height: 1,17;
+
+   color: #2E2F42;
+   text-transform: uppercase
+}
+
+.header-nav {
+   margin-right: auto;
+   padding-top: 24px;
+   padding-bottom: 24px;
+}
+.header-nav-list {
+   display: flex;
+   align-items: center;
+   gap: 40px;
+}
+
+.header-nav-link {
+   display: block;
+   padding-top: 24px;
+   padding-bottom: 24px;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+   color: #2E2F42;
+}
+
+.header-nav-contact {
+   display: block;
+   padding-top: 24px;
+   padding-bottom: 24px;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 1,5;
+   letter-spacing: 0.02em;
+   color: #434455;
+}
+
+.contact {
+   margin-right: 40px;
+}
+
+.hero-section {
+   width: 1440px;
+   height: 600px;
+   background: #2E2F42;
+}
+
+.hero-title {
+   margin: 0 auto;
+   margin-bottom: 64px;
+   padding-top: 188px;
+
+   font-weight: 700;
+   font-size: 56px;
+   line-height: 1,07;
+   text-align: center;
+   letter-spacing: 0.02em;
+   color: #FFFFFF;
+   
+
+}
+
+.button-list {
+   display: flex;
+   flex-direction: row;
+   align-items: flex-start;
+   padding: 0px;
+   gap: 24px;
+
+}
+
+.button-primary{
+   cursor: pointer;
+   
+   min-width: 160px;
+   min-height: 50px;
+
+   background: #4D5AE5;
+   color: #FFFFFF;
+   border: 1px solid transparent;
+
+   border-radius: 4px;
+   padding: 16px 32px;
+   text-align: center;
+
+   display: block;
+   margin: 0 auto;
+}
+
+.button-secondary {
+      cursor: pointer;
+      
+      min-width: 20px;
+      min-height: 20px;
+
+      background: #F4F4FD;;
+      color: #4D5AE5;
+      
+      border: 1px solid #E7E9FC;
+      border-radius: 4px;
+      padding: 12px 24px;
+      text-align: center;
+}
+
+.button-secondary:hover,
+.button-secondary:focus {
+   background: #404BBF;
+   color: #FFFFFF;
+}
+
+.button-container {
+   display: flex;
+   margin-top: 96px;
+   justify-content: center;
+}
+
+.header-link:hover,
+.header-link:focus {
+   color: #404BBF;
+}
+
+.galery-container {
+   margin-top: 72px;
+}
+
+.list-container {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 24px;
+   padding-top: 120px;
+   padding-bottom: 120px;
+}
+.strategy-container {
+   width: 264px;
+   height: 104px;
+}
+
+.punctuality-container {
+   width: 264px;
+   height: 104px;
+}
+
+.diligence-container {
+   width: 264px;
+   height: 104px;
+}
+
+.technologies-container {
+   width: 264px;
+   height: 104px;  
+}
+
+.subtitle {
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 1,2;
+   letter-spacing: 0.02em;
+
+   color: #2E2F42;
+
+   margin-bottom: 8px;
+}
+
+.undertitle {
+font-weight: 400;
+font-size: 16px;
+line-height: 1,5;
+letter-spacing: 0.02em;
+
+color: #434455;
+}
+
+.section-title {
+   width: 323px;
+   height: 40px;
+
+   font-weight: 700;
+   font-size: 36px;
+   line-height: 1,11;
+   text-align: center;
+   letter-spacing: 0.02em;
+
+   color: #2E2F42;
+
+   padding-top: 120px;
+   margin-bottom: 72px;
+}
+
+.team-section {
+   width: 1440px;
+   height: 732px;
+
+   background: #F4F4FD;
+}
+
+.worker-container {
+   width: 264px;
+   height: 380px;
+
+   background: #FFFFFF;
+
+   border-radius: 0px 0px 4px 4px;
+}
+
+.worker-image {
+   width: 264px;
+   height: 260px;
+
+   margin-bottom: 32px;
+}
+
+.image-list {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 24px;
+}
+
+.footer {
+   width: 1440px;
+   height: 312px;
+   background: #2E2F42;
+}
+
+.footer-undertitle {
+   width: 264px;
+   height: 72px;
+
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 1,5;
+   letter-spacing: 0.02em;
+
+   color: #F4F4FD;
+}
+
+.footer-container {
+   padding-top: 100px;
+}
+
+.card-set {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 24px;
+}
+
+.card-set-item {
+   width: calc(100% - 24px)*9-1/9;
+}
+
+.galery-wraper {
+   padding: 32px 16px;
+}
